@@ -25,7 +25,7 @@
   8. See [Usage](#usage) or [Tests](#tests) for more details.
 
   ## [Usage](#usage)
-  View a demo of the application testing here: [Youtube Demo Video](https://youtube.com/playlist?list=PLp5-kLRcKJPc3IzxO8tBtEfKaW1WGHQDz&si=aK35KC8E2BCAHJFF).
+  View a demo of the application testing here: [Youtube Demo Video](https://youtu.be/PpANe3iNgqA).
   1. Click `Start Quiz`;
   2. Read the question and select the number button for your answer;
   3. Repeat for each question in the database;

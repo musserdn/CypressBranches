@@ -33,7 +33,7 @@ describe('Quiz End-to-End Test', () => {
 
   it('completes the quiz twice with random answers', () => {
     // Visit the page.
-    cy.visit('http://localhost:3000/');
+    cy.visit('/');
     
     // Start the quiz by clicking the "Start Quiz" button.
     cy.contains('Start Quiz').click();
@@ -56,7 +56,7 @@ describe('Quiz End-to-End Test', () => {
 
   it('returns valid quiz data from API', () => {
     // Make a direct API call to verify the API response.
-    cy.request('GET', 'http://localhost:3000/api/questions/random').then((response) => {
+    cy.request('GET', 'http://localhost:3001/api/questions/random').then((response) => {
       expect(response.status).to.eq(200);
       expect(response.body).to.be.an('array');
       response.body.forEach((question: any) => {
